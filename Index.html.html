@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudyBot - Your AI Study Assistant</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-white shadow p-6">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">📚 StudyBot</h1>
+      <nav>
+        <a href="#features" class="mx-3 text-sm font-medium text-gray-600 hover:text-blue-600">Features</a>
+        <a href="#pricing" class="mx-3 text-sm font-medium text-gray-600 hover:text-blue-600">Pricing</a>
+        <a href="#get-started" class="bg-blue-600 text-white px-4 py-2 rounded-md text-sm hover:bg-blue-700">Get Started</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 px-4 bg-blue-50">
+    <h2 class="text-4xl font-extrabold mb-4">Ace Your Exams With AI</h2>
+    <p class="text-lg text-gray-600 mb-8">Instant flashcards, summaries, and study plans—powered by AI and built for students.</p>
+    <a href="#get-started" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold text-lg hover:bg-blue-700">Try it Free</a>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="py-16 bg-white">
+    <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-8 px-6">
+      <div class="bg-gray-100 p-6 rounded-lg shadow-sm">
+        <h3 class="text-xl font-bold mb-2">📄 Smart Summaries</h3>
+        <p>Upload your notes or lectures and get concise, accurate summaries instantly.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg shadow-sm">
+        <h3 class="text-xl font-bold mb-2">🧠 AI Flashcards</h3>
+        <p>Generate custom flashcards in seconds to help you retain key concepts.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg shadow-sm">
+        <h3 class="text-xl font-bold mb-2">📅 Personalized Study Plans</h3>
+        <p>Enter your exam dates and get a personalized study schedule with reminders.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="py-16 bg-blue-50">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl font-bold">Simple, Student-Friendly Pricing</h2>
+    </div>
+    <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-6 px-6">
+      <div class="bg-white p-8 rounded-lg shadow text-center">
+        <h3 class="text-2xl font-semibold mb-2">Free</h3>
+        <p class="text-gray-600 mb-4">Try it out—no credit card required.</p>
+        <ul class="text-gray-700 mb-6">
+          <li>✔ 10 Flashcards/month</li>
+          <li>✔ Basic summaries</li>
+          <li>✔ Community support</li>
+        </ul>
+        <a href="#get-started" class="bg-gray-700 text-white px-5 py-2 rounded hover:bg-gray-800">Get Free Plan</a>
+      </div>
+      <div class="bg-white p-8 rounded-lg shadow text-center border border-blue-600">
+        <h3 class="text-2xl font-semibold mb-2">Premium – $5/month</h3>
+        <p class="text-gray-600 mb-4">Unlock all features and unlimited access.</p>
+        <ul class="text-gray-700 mb-6">
+          <li>✔ Unlimited flashcards</li>
+          <li>✔ AI study planner</li>
+          <li>✔ Priority support</li>
+        </ul>
+        <a href="#get-started" class="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700">Upgrade to Premium</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get Started CTA -->
+  <section id="get-started" class="py-20 bg-white text-center">
+    <h2 class="text-3xl font-bold mb-4">Start Studying Smarter Today</h2>
+    <p class="text-gray-600 mb-6">Join students already boosting their grades with StudyBot.</p>
+    <a href="#" class="bg-green-500 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-green-600">Launch the Bot</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-sm text-gray-500 py-6 border-t">
+    © 2025 StudyBot. Built by students, for students.
+  </footer>
+
+  <!-- Landbot Chat Widget -->
+  <script src="https://cdn.landbot.io/landbot-3/landbot-3.0.0.js"></script>
+<script>
+  window.addEventListener("load", function () {
+    var myLandbot = new Landbot.Livechat({
+      configUrl: 'https://landbot.online/v3/H-3030293-SVBFNC31LX4UE6PP/index.json'
+    });
+  });
+</script>
+
+</body>
+</html>
